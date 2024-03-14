@@ -31,7 +31,7 @@
   menuDividerColor: 0,
   progressBarBackgroundColor: 0,
   progressBarPrimaryColor: 0xff72a1d9,
-  ratingColor0: 0xff394a49,
+  ratingColor0: 0xff697a79,
   ratingColor1: 0xff72a1d9,
   ratingColor2: 0xff72d6d4,
   ratingColor3: 0xff8fb76e,
