@@ -89,7 +89,7 @@
   toolbarHighlightColor: 0,
   toolbarLightColor: 0xff343c47,
   toolbarShadowColor: 0,
-  toolbarTabColor: 0xff707884,
+  toolbarTabColor: 0xff3f4753,
   toolbarTextColor: 0xffbfc7d5,
   toolbarTextShadowColor: 0,
   toolbarTopBorderColor: 0,
