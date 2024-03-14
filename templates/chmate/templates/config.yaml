@@ -1,0 +1,3 @@
+default:
+  extension: .night.txt
+  output: theme/base16
