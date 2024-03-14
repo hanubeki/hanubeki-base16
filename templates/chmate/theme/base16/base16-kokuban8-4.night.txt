@@ -97,7 +97,7 @@
   unreadBackgroundTopColor: 0xffb78ed1,
   unreadBorderBottomColor: 0,
   unreadBorderTopColor: 0,
-  unreadTextColor: 0xffb8cac9,
+  unreadTextColor: 0xff233333,
   unreadTextShadowColor: 0,
   windowBackground: 0x00233333,
   windowBackgroundColor: 0x00233333
