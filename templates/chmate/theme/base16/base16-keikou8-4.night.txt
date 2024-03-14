@@ -27,7 +27,7 @@
   listDividerColor: 0,
   listPopupBackgroundColor: 0xff29313c,
   listPopupBorderColor: 0,
-  listPopupShadowColor: 0x5072a1d9,
+  listPopupShadowColor: 0x50707884,
   menuDividerColor: 0,
   progressBarBackgroundColor: 0,
   progressBarPrimaryColor: 0xff72a1d9,
