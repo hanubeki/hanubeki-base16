@@ -1,0 +1,26 @@
+scheme: "hiyake8.4"
+author: "hanubeki"
+base00: "f9efe7" # -4
+base01: "eae1d9" # -4
+base02: "cbc5c1" # -2
+base03: "ababab" # 0
+base04: "76777a" # +4
+base05: "43474e" # +8
+base06: "343c47" # +12
+base07: "29313c" # +12
+base08: "df848a"
+base09: "f8bc64"
+base0A: "e2d774"
+base0B: "8fb76e"
+base0C: "72d6d4"
+base0D: "72a1d9"
+base0E: "b78ed1"
+base0F: "e093c2"
+base10: "fff8f4" # -8
+base11: "fffbff" # -12
+base12: "a25259"
+base13: "bc8734"
+base14: "5d813e"
+base15: "349f9d"
+base16: "3c6da2"
+base17: "815b9a"

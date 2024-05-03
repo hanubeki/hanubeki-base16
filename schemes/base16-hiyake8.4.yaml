@@ -1,0 +1,18 @@
+scheme: "hiyake8.4"
+author: "hanubeki"
+base00: "f9efe7" # -4
+base01: "eae1d9" # -4
+base02: "cbc5c1" # -2
+base03: "ababab" # 0
+base04: "76777a" # +4
+base05: "43474e" # +8
+base06: "343c47" # +12
+base07: "29313c" # +12
+base08: "a25259"
+base09: "bc8734"
+base0A: "aaa043"
+base0B: "5d813e"
+base0C: "349f9d"
+base0D: "3c6da2"
+base0E: "815b9a"
+base0F: "a6618c"
