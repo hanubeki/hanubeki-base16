@@ -1,26 +1,29 @@
+system: "base24"
 scheme: "hanubeki-hiyake9"
 author: "hanubeki"
-base00: "f9efe7" # -4
-base01: "eae1d9" # -4
-base02: "cbc5c1" # -2
-base03: "ababab" # 0
-base04: "76777a" # +4
-base05: "43474e" # +8
-base06: "343c47" # +12
-base07: "29313c" # +12
-base08: "9e536d"
-base09: "b2604f"
-base0A: "bc8734"
-base0B: "488450"
-base0C: "369ead"
-base0D: "3c6da2"
-base0E: "735fa2"
-base0F: "9b649c"
-base10: "fff8f4" # -8
-base11: "fffbff" # -12
-base12: "823b54"
-base13: "9e6d1c"
-base14: "2f6a39"
-base15: "008392"
-base16: "1f5588"
-base17: "684380"
+variant: "light"
+palette:
+  base00: "f9efe7" # -4
+  base01: "eae1d9" # -4
+  base02: "cbc5c1" # -2
+  base03: "ababab" # 0
+  base04: "76777a" # +4
+  base05: "43474e" # +8
+  base06: "343c47" # +12
+  base07: "29313c" # +12
+  base08: "9e536d"
+  base09: "b2604f"
+  base0A: "bc8734"
+  base0B: "488450"
+  base0C: "369ead"
+  base0D: "3c6da2"
+  base0E: "735fa2"
+  base0F: "9b649c"
+  base10: "fff8f4" # -8
+  base11: "fffbff" # -12
+  base12: "823b54"
+  base13: "9e6d1c"
+  base14: "2f6a39"
+  base15: "008392"
+  base16: "1f5588"
+  base17: "684380"
