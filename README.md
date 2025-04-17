@@ -1,7 +1,7 @@
 # hanubeki-base16
 hanubeki's base16/24 schemes
 
-## scheme detaild
+## Scheme details
 * [keikou8.4](https://lm.korako.me/post/54151)
 * [keikou9](https://lm.korako.me/post/78901)
 
