@@ -1,2 +1,4 @@
+templates/chmate/theme/base16/*
+!base??-hanubeki-*
 templates/tinted-vscode/
 schemes/schemes-spec-0.11/
