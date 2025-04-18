@@ -1,5 +1,5 @@
 /templates/chmate/build-themes.ps1
-/templates/chmate/theme/base16-*
+/templates/chmate/theme/base??-*/
 !base??-hanubeki-*
 /templates/tinted-vscode/
 /schemes/schemes-spec-0.11/
