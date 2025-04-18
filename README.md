@@ -5,7 +5,7 @@ hanubeki's base16/24 schemes
 * [keikou9](https://lm.korako.me/post/78901)
 
 ## Links
-* [base16-builder-node](https://github.com/tinted-theming/base16-builder-node)
+* [base16-builder-go](https://github.com/tinted-theming/base16-builder-go)
 * [Tinted VSCode](https://github.com/tinted-theming/tinted-vscode)
 * [ChMate](https://chmate.airfront.co.jp/)
 
