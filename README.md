@@ -5,7 +5,7 @@ hanubeki's base16/24 schemes
 ChMate template doesn't work on `tinted-builder-rust` as config.yaml has some mustache expressions.
 
 ## Scheme details
-* [keikou9](https://lm.korako.me/post/78901)
+* [keikou9](https://pf.korako.me/post/9483)
 
 ## Links
 * [base16-builder-go](https://github.com/tinted-theming/base16-builder-go)
