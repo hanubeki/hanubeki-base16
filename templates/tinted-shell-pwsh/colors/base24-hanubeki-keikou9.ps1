@@ -32,13 +32,13 @@ Write-Host -NoNewline "`e]4;23;#141c26`a" # base11
 
 Write-Host -NoNewline "`e]10;#bfc7d5`a" # base05
 
-if (!($(Test-Path "$Env:BASE24_SHELL_SET_BACKGROUND"))) {
-    Write-Host -NoNewline "`e]11;#29313c`a" # base00
+if ($(Test-Path "Env:BASE24_SHELL_SET_BACKGROUND") -and $Env:BASE24_SHELL_SET_BACKGROUND -ne "false") {
+    Write-Host -NoNewline "`e]11;#1d1d1d`a" # base00
 }
 
 Write-Host -NoNewline "`e]12;7`a"
 
-if ($(Test-Path "$Env:TINTED_SHELL_ENABLE_BASE24_VARS")) {
+if ($(Test-Path "Env:TINTED_SHELL_ENABLE_BASE24_VARS")) {
     $Env:BASE24_COLOR_00_HEX = "29313c"
     $Env:BASE24_COLOR_01_HEX = "343c47"
     $Env:BASE24_COLOR_02_HEX = "3f4753"
