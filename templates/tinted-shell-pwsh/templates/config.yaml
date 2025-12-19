@@ -1,0 +1,7 @@
+default:
+  extension: .ps1
+  output: colors
+default-base24:
+  supported-systems: [base24]
+  extension: .ps1
+  output: colors
