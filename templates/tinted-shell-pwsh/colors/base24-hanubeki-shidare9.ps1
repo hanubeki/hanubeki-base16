@@ -3,40 +3,40 @@
 
 $Env:BASE24_THEME = "hanubeki-shidare9"
 
-Write-Host -NoNewline "`e]4;0;#3c2c35`a" # base00
-Write-Host -NoNewline "`e]4;1;#bc6b86`a" # base08
-Write-Host -NoNewline "`e]4;2;#8a9845`a" # base0B
-Write-Host -NoNewline "`e]4;3;#e59b57`a" # base0A
-Write-Host -NoNewline "`e]4;4;#6a82c1`a" # base0D
-Write-Host -NoNewline "`e]4;5;#a970a9`a" # base0E
-Write-Host -NoNewline "`e]4;6;#56b9c8`a" # base0C
-Write-Host -NoNewline "`e]4;7;#d8c0cb`a" # base05
+Write-Host -NoNewline "`e]4;0;rgb:3c/2c/35`e\" # base00
+Write-Host -NoNewline "`e]4;1;rgb:bc/6b/86`e\" # base08
+Write-Host -NoNewline "`e]4;2;rgb:8a/98/45`e\" # base0B
+Write-Host -NoNewline "`e]4;3;rgb:e5/9b/57`e\" # base0A
+Write-Host -NoNewline "`e]4;4;rgb:6a/82/c1`e\" # base0D
+Write-Host -NoNewline "`e]4;5;rgb:a9/70/a9`e\" # base0E
+Write-Host -NoNewline "`e]4;6;rgb:56/b9/c8`e\" # base0C
+Write-Host -NoNewline "`e]4;7;rgb:d8/c0/cb`e\" # base05
 
-Write-Host -NoNewline "`e]4;8;#86717c`a" # base03
-Write-Host -NoNewline "`e]4;9;#da84a0`a" # base12
-Write-Host -NoNewline "`e]4;10;#a4b35c`a" # base14
-Write-Host -NoNewline "`e]4;11;#ffb779`a" # base13
-Write-Host -NoNewline "`e]4;12;#849cdd`a" # base16
-Write-Host -NoNewline "`e]4;13;#c68ac5`a" # base17
-Write-Host -NoNewline "`e]4;14;#74d5e4`a" # base15
-Write-Host -NoNewline "`e]4;15;#ffecf4`a" # base07
+Write-Host -NoNewline "`e]4;8;rgb:86/71/7c`e\" # base03
+Write-Host -NoNewline "`e]4;9;rgb:da/84/a0`e\" # base12
+Write-Host -NoNewline "`e]4;10;rgb:a4/b3/5c`e\" # base14
+Write-Host -NoNewline "`e]4;11;rgb:ff/b7/79`e\" # base13
+Write-Host -NoNewline "`e]4;12;rgb:84/9c/dd`e\" # base16
+Write-Host -NoNewline "`e]4;13;rgb:c6/8a/c5`e\" # base17
+Write-Host -NoNewline "`e]4;14;rgb:74/d5/e4`e\" # base15
+Write-Host -NoNewline "`e]4;15;rgb:ff/ec/f4`e\" # base07
 
-Write-Host -NoNewline "`e]4;16;#d17967`a" # base09
-Write-Host -NoNewline "`e]4;17;#944839`a" # base0F
-Write-Host -NoNewline "`e]4;18;#473740`a" # base01
-Write-Host -NoNewline "`e]4;19;#53424b`a" # base02
-Write-Host -NoNewline "`e]4;20;#bca5b0`a" # base04
-Write-Host -NoNewline "`e]4;21;#f5dce8`a" # base06
-Write-Host -NoNewline "`e]4;22;#30212a`a" # base10
-Write-Host -NoNewline "`e]4;23;#251720`a" # base11
+Write-Host -NoNewline "`e]4;16;rgb:d1/79/67`e\" # base09
+Write-Host -NoNewline "`e]4;17;rgb:94/48/39`e\" # base0F
+Write-Host -NoNewline "`e]4;18;rgb:47/37/40`e\" # base01
+Write-Host -NoNewline "`e]4;19;rgb:53/42/4b`e\" # base02
+Write-Host -NoNewline "`e]4;20;rgb:bc/a5/b0`e\" # base04
+Write-Host -NoNewline "`e]4;21;rgb:f5/dc/e8`e\" # base06
+Write-Host -NoNewline "`e]4;22;rgb:30/21/2a`e\" # base10
+Write-Host -NoNewline "`e]4;23;rgb:25/17/20`e\" # base11
 
-Write-Host -NoNewline "`e]10;#d8c0cb`a" # base05
+Write-Host -NoNewline "`e]10;rgb:d8/c0/cb`e\" # base05
 
 if ($(Test-Path "Env:BASE24_SHELL_SET_BACKGROUND") -and $Env:BASE24_SHELL_SET_BACKGROUND -ne "false") {
-    Write-Host -NoNewline "`e]11;#3c2c35`a" # base00
+    Write-Host -NoNewline "`e]11;rgb:3c/2c/35`e\" # base00
 }
 
-Write-Host -NoNewline "`e]12;7`a"
+Write-Host -NoNewline "`e]12;7`e\"
 
 if ($(Test-Path "Env:TINTED_SHELL_ENABLE_BASE24_VARS")) {
     $Env:BASE24_COLOR_00_HEX = "3c2c35"
