@@ -1,6 +1,8 @@
 # tinted-shell (base24) {{scheme-name}} for PowerShell
 # scheme made by {{scheme-author}}
 
+$Env:BASE24_THEME = "{{scheme-slug}}"
+
 Write-Host -NoNewline "`e]4;0;#{{base00-hex}}`a" # base00
 Write-Host -NoNewline "`e]4;1;#{{base08-hex}}`a" # base08
 Write-Host -NoNewline "`e]4;2;#{{base0B-hex}}`a" # base0B
@@ -27,3 +29,38 @@ Write-Host -NoNewline "`e]4;20;#{{base04-hex}}`a" # base04
 Write-Host -NoNewline "`e]4;21;#{{base06-hex}}`a" # base06
 Write-Host -NoNewline "`e]4;22;#{{base10-hex}}`a" # base10
 Write-Host -NoNewline "`e]4;23;#{{base11-hex}}`a" # base11
+
+Write-Host -NoNewline "`e]10;#{{base05-hex}}`a" # base05
+
+if (!($(Test-Path "$Env:BASE24_SHELL_SET_BACKGROUND"))) {
+    Write-Host -NoNewline "`e]11;#{{base00-hex}}`a" # base00
+}
+
+Write-Host -NoNewline "`e]12;7`a"
+
+if (!($(Test-Path "$Env:TINTED_SHELL_ENABLE_BASE24_VARS"))) {
+    $Env:BASE24_COLOR_00_HEX = "{{base00-hex}}"
+    $Env:BASE24_COLOR_01_HEX = "{{base01-hex}}"
+    $Env:BASE24_COLOR_02_HEX = "{{base02-hex}}"
+    $Env:BASE24_COLOR_03_HEX = "{{base03-hex}}"
+    $Env:BASE24_COLOR_04_HEX = "{{base04-hex}}"
+    $Env:BASE24_COLOR_05_HEX = "{{base05-hex}}"
+    $Env:BASE24_COLOR_06_HEX = "{{base06-hex}}"
+    $Env:BASE24_COLOR_07_HEX = "{{base07-hex}}"
+    $Env:BASE24_COLOR_08_HEX = "{{base08-hex}}"
+    $Env:BASE24_COLOR_09_HEX = "{{base09-hex}}"
+    $Env:BASE24_COLOR_0A_HEX = "{{base0A-hex}}"
+    $Env:BASE24_COLOR_0B_HEX = "{{base0B-hex}}"
+    $Env:BASE24_COLOR_0C_HEX = "{{base0C-hex}}"
+    $Env:BASE24_COLOR_0D_HEX = "{{base0D-hex}}"
+    $Env:BASE24_COLOR_0E_HEX = "{{base0E-hex}}"
+    $Env:BASE24_COLOR_0F_HEX = "{{base0F-hex}}"
+    $Env:BASE24_COLOR_10_HEX = "{{base10-hex}}"
+    $Env:BASE24_COLOR_11_HEX = "{{base11-hex}}"
+    $Env:BASE24_COLOR_12_HEX = "{{base12-hex}}"
+    $Env:BASE24_COLOR_13_HEX = "{{base13-hex}}"
+    $Env:BASE24_COLOR_14_HEX = "{{base14-hex}}"
+    $Env:BASE24_COLOR_15_HEX = "{{base15-hex}}"
+    $Env:BASE24_COLOR_16_HEX = "{{base16-hex}}"
+    $Env:BASE24_COLOR_17_HEX = "{{base17-hex}}"
+}

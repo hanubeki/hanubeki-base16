@@ -1,5 +1,7 @@
 # tinted-shell (base16) hanubeki-hiyake9 for PowerShell
-# palette made by hanubeki
+# scheme made by hanubeki
+
+$Env:BASE16_THEME = "hanubeki-hiyake9"
 
 Write-Host -NoNewline "`e]4;0;#f9efe7`a" # base00
 Write-Host -NoNewline "`e]4;1;#9e536d`a" # base08
@@ -25,3 +27,30 @@ Write-Host -NoNewline "`e]4;18;#eae1d9`a" # base01
 Write-Host -NoNewline "`e]4;19;#cbc5c1`a" # base02
 Write-Host -NoNewline "`e]4;20;#76777a`a" # base04
 Write-Host -NoNewline "`e]4;21;#343c47`a" # base06
+
+Write-Host -NoNewline "`e]10;#43474e`a" # base05
+
+if (!($(Test-Path "$Env:BASE16_SHELL_SET_BACKGROUND"))) {
+    Write-Host -NoNewline "`e]11;#f9efe7`a" # base00
+}
+
+Write-Host -NoNewline "`e]12;7`a"
+
+if (!($(Test-Path "$Env:TINTED_SHELL_ENABLE_BASE16_VARS")) -or !($(Test-Path "$Env:BASE16_SHELL_ENABLE_VARS"))) {
+    $Env:BASE16_COLOR_00_HEX = "f9efe7"
+    $Env:BASE16_COLOR_01_HEX = "eae1d9"
+    $Env:BASE16_COLOR_02_HEX = "cbc5c1"
+    $Env:BASE16_COLOR_03_HEX = "ababab"
+    $Env:BASE16_COLOR_04_HEX = "76777a"
+    $Env:BASE16_COLOR_05_HEX = "43474e"
+    $Env:BASE16_COLOR_06_HEX = "343c47"
+    $Env:BASE16_COLOR_07_HEX = "29313c"
+    $Env:BASE16_COLOR_08_HEX = "9e536d"
+    $Env:BASE16_COLOR_09_HEX = "b2604f"
+    $Env:BASE16_COLOR_0A_HEX = "bc8734"
+    $Env:BASE16_COLOR_0B_HEX = "488450"
+    $Env:BASE16_COLOR_0C_HEX = "369ead"
+    $Env:BASE16_COLOR_0D_HEX = "3c6da2"
+    $Env:BASE16_COLOR_0E_HEX = "735fa2"
+    $Env:BASE16_COLOR_0F_HEX = "763224"
+}

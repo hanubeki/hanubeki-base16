@@ -1,5 +1,7 @@
 # tinted-shell (base24) hanubeki-shidare9 for PowerShell
-# palette made by hanubeki
+# scheme made by hanubeki
+
+$Env:BASE24_THEME = "hanubeki-shidare9"
 
 Write-Host -NoNewline "`e]4;0;#3c2c35`a" # base00
 Write-Host -NoNewline "`e]4;1;#bc6b86`a" # base08
@@ -27,3 +29,38 @@ Write-Host -NoNewline "`e]4;20;#bca5b0`a" # base04
 Write-Host -NoNewline "`e]4;21;#f5dce8`a" # base06
 Write-Host -NoNewline "`e]4;22;#30212a`a" # base10
 Write-Host -NoNewline "`e]4;23;#251720`a" # base11
+
+Write-Host -NoNewline "`e]10;#d8c0cb`a" # base05
+
+if (!($(Test-Path "$Env:BASE24_SHELL_SET_BACKGROUND"))) {
+    Write-Host -NoNewline "`e]11;#3c2c35`a" # base00
+}
+
+Write-Host -NoNewline "`e]12;7`a"
+
+if (!($(Test-Path "$Env:TINTED_SHELL_ENABLE_BASE24_VARS"))) {
+    $Env:BASE24_COLOR_00_HEX = "3c2c35"
+    $Env:BASE24_COLOR_01_HEX = "473740"
+    $Env:BASE24_COLOR_02_HEX = "53424b"
+    $Env:BASE24_COLOR_03_HEX = "86717c"
+    $Env:BASE24_COLOR_04_HEX = "bca5b0"
+    $Env:BASE24_COLOR_05_HEX = "d8c0cb"
+    $Env:BASE24_COLOR_06_HEX = "f5dce8"
+    $Env:BASE24_COLOR_07_HEX = "ffecf4"
+    $Env:BASE24_COLOR_08_HEX = "bc6b86"
+    $Env:BASE24_COLOR_09_HEX = "d17967"
+    $Env:BASE24_COLOR_0A_HEX = "e59b57"
+    $Env:BASE24_COLOR_0B_HEX = "8a9845"
+    $Env:BASE24_COLOR_0C_HEX = "56b9c8"
+    $Env:BASE24_COLOR_0D_HEX = "6a82c1"
+    $Env:BASE24_COLOR_0E_HEX = "a970a9"
+    $Env:BASE24_COLOR_0F_HEX = "944839"
+    $Env:BASE24_COLOR_10_HEX = "30212a"
+    $Env:BASE24_COLOR_11_HEX = "251720"
+    $Env:BASE24_COLOR_12_HEX = "da84a0"
+    $Env:BASE24_COLOR_13_HEX = "ffb779"
+    $Env:BASE24_COLOR_14_HEX = "a4b35c"
+    $Env:BASE24_COLOR_15_HEX = "74d5e4"
+    $Env:BASE24_COLOR_16_HEX = "849cdd"
+    $Env:BASE24_COLOR_17_HEX = "c68ac5"
+}
