@@ -30,7 +30,7 @@ Write-Host -NoNewline "`e]4;21;rgb:d3/e6/e5`e\" # base06
 
 Write-Host -NoNewline "`e]10;rgb:b8/ca/c9`e\" # base05
 
-if ($(Test-Path "Env:BASE16_SHELL_SET_BACKGROUND") -and $Env:BASE16_SHELL_SET_BACKGROUND -ne "false") {
+if ($Env:BASE16_SHELL_SET_BACKGROUND -ne "false") {
     Write-Host -NoNewline "`e]11;rgb:23/33/33`e\" # base00
 }
 
