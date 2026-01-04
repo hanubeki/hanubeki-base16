@@ -36,7 +36,7 @@ if ($Env:BASE24_SHELL_SET_BACKGROUND -ne "false") {
     Write-Host -NoNewline "`e]11;rgb:23/33/33`e\" # base00
 }
 
-Write-Host -NoNewline "`e]12;7`e\"
+Write-Host -NoNewline "`e]12;rgb:b8/ca/c9`e\" # base05
 
 if ($(Test-Path "Env:TINTED_SHELL_ENABLE_BASE24_VARS")) {
     $Env:BASE24_COLOR_00_HEX = "233333"

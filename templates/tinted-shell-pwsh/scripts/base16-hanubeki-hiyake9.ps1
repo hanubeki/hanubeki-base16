@@ -34,7 +34,7 @@ if ($Env:BASE16_SHELL_SET_BACKGROUND -ne "false") {
     Write-Host -NoNewline "`e]11;rgb:f9/ef/e7`e\" # base00
 }
 
-Write-Host -NoNewline "`e]12;7`e\"
+Write-Host -NoNewline "`e]12;rgb:43/47/4e`e\" # base05
 
 if ($(Test-Path "Env:TINTED_SHELL_ENABLE_BASE16_VARS") -or $(Test-Path "Env:BASE16_SHELL_ENABLE_VARS")) {
     $Env:BASE16_COLOR_00_HEX = "f9efe7"
