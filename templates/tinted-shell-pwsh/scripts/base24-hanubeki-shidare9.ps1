@@ -27,8 +27,8 @@ Write-Host -NoNewline "`e]4;18;rgb:47/37/40`e\" # base01
 Write-Host -NoNewline "`e]4;19;rgb:53/42/4b`e\" # base02
 Write-Host -NoNewline "`e]4;20;rgb:bc/a5/b0`e\" # base04
 Write-Host -NoNewline "`e]4;21;rgb:f5/dc/e8`e\" # base06
-Write-Host -NoNewline "`e]4;22;rgb:30/21/2a`e\" # base10
-Write-Host -NoNewline "`e]4;23;rgb:25/17/20`e\" # base11
+# Write-Host -NoNewline "`e]4;22;rgb:30/21/2a`e\" # base10
+# Write-Host -NoNewline "`e]4;23;rgb:25/17/20`e\" # base11
 
 Write-Host -NoNewline "`e]10;rgb:d8/c0/cb`e\" # base05
 
