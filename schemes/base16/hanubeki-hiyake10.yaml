@@ -1,0 +1,21 @@
+system: "base16"
+name: "hanubeki-hiyake10"
+author: "hanubeki"
+variant: "light"
+palette:
+  base00: "#f9efe7" # -4
+  base01: "#eae1d9" # -4
+  base02: "#cbc5c1" # -2
+  base03: "#ababab" # 0
+  base04: "#76777a" # +4
+  base05: "#43474e" # +8
+  base06: "#343c47" # +12
+  base07: "#29313c" # +12
+  base08: "#a35444"
+  base09: "#a86829"
+  base0A: "#bc8734"
+  base0B: "#707d2e"
+  base0C: "#369ead"
+  base0D: "#3c6da2"
+  base0E: "#735fa2"
+  base0F: "#763224"
