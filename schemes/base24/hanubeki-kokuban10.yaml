@@ -22,7 +22,7 @@ palette:
   base10: "#182928"
   base11: "#0e1e1e"
   base12: "#df848a"
-  base13: "#ffb779"
+  base13: "#ffb779" # FIXME: clipping at chroma 35
   base14: "#7bba81"
   base15: "#72d6d4"
   base16: "#60a5d2"
