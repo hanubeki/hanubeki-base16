@@ -1,5 +1,6 @@
 /templates/chmate/theme/base??-*/
 /templates/tinted-shell-pwsh/scripts/base??-*.ps1
+/templates/vivid/themes/base??-*.yml
 !base??-hanubeki-*
 /templates/tinted-vscode/
 /schemes/schemes-spec-0.11/
