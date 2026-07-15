@@ -1,28 +1,28 @@
-# tinted-shell (base24) hanubeki-kokuban10 for PowerShell
+# tinted-shell (base24) hanubeki-kokuban for PowerShell
 # scheme made by hanubeki
 
-$Env:BASE24_THEME = "hanubeki-kokuban10"
+$Env:BASE24_THEME = "hanubeki-kokuban"
 
 Write-Host -NoNewline "`e]4;0;rgb:23/33/33`e\" # base00
 Write-Host -NoNewline "`e]4;1;rgb:c1/6b/71`e\" # base08
 Write-Host -NoNewline "`e]4;2;rgb:61/9e/68`e\" # base0B
-Write-Host -NoNewline "`e]4;3;rgb:e5/9b/57`e\" # base0A
+Write-Host -NoNewline "`e]4;3;rgb:ca/a7/49`e\" # base0A
 Write-Host -NoNewline "`e]4;4;rgb:44/8b/b6`e\" # base0D
-Write-Host -NoNewline "`e]4;5;rgb:a9/70/a9`e\" # base0E
+Write-Host -NoNewline "`e]4;5;rgb:8d/79/be`e\" # base0E
 Write-Host -NoNewline "`e]4;6;rgb:55/bb/b8`e\" # base0C
 Write-Host -NoNewline "`e]4;7;rgb:b8/ca/c9`e\" # base05
 
 Write-Host -NoNewline "`e]4;8;rgb:69/7a/79`e\" # base03
 Write-Host -NoNewline "`e]4;9;rgb:df/84/8a`e\" # base12
 Write-Host -NoNewline "`e]4;10;rgb:7b/ba/81`e\" # base14
-Write-Host -NoNewline "`e]4;11;rgb:ff/b7/79`e\" # base13
+Write-Host -NoNewline "`e]4;11;rgb:e7/c2/61`e\" # base13
 Write-Host -NoNewline "`e]4;12;rgb:60/a5/d2`e\" # base16
-Write-Host -NoNewline "`e]4;13;rgb:c6/8a/c5`e\" # base17
+Write-Host -NoNewline "`e]4;13;rgb:a7/93/da`e\" # base17
 Write-Host -NoNewline "`e]4;14;rgb:72/d6/d4`e\" # base15
 Write-Host -NoNewline "`e]4;15;rgb:e2/f5/f3`e\" # base07
 
-Write-Host -NoNewline "`e]4;16;rgb:d1/79/67`e\" # base09
-Write-Host -NoNewline "`e]4;17;rgb:a3/54/44`e\" # base0F
+Write-Host -NoNewline "`e]4;16;rgb:c7/81/40`e\" # base09
+Write-Host -NoNewline "`e]4;17;rgb:9a/5c/1e`e\" # base0F
 Write-Host -NoNewline "`e]4;18;rgb:2e/3e/3e`e\" # base01
 Write-Host -NoNewline "`e]4;19;rgb:39/4a/49`e\" # base02
 Write-Host -NoNewline "`e]4;20;rgb:9d/af/ae`e\" # base04
@@ -48,19 +48,19 @@ if ($(Test-Path "Env:TINTED_SHELL_ENABLE_BASE24_VARS")) {
     $Env:BASE24_COLOR_06_HEX = "d3e6e5"
     $Env:BASE24_COLOR_07_HEX = "e2f5f3"
     $Env:BASE24_COLOR_08_HEX = "c16b71"
-    $Env:BASE24_COLOR_09_HEX = "d17967"
-    $Env:BASE24_COLOR_0A_HEX = "e59b57"
+    $Env:BASE24_COLOR_09_HEX = "c78140"
+    $Env:BASE24_COLOR_0A_HEX = "caa749"
     $Env:BASE24_COLOR_0B_HEX = "619e68"
     $Env:BASE24_COLOR_0C_HEX = "55bbb8"
     $Env:BASE24_COLOR_0D_HEX = "448bb6"
-    $Env:BASE24_COLOR_0E_HEX = "a970a9"
-    $Env:BASE24_COLOR_0F_HEX = "a35444"
+    $Env:BASE24_COLOR_0E_HEX = "8d79be"
+    $Env:BASE24_COLOR_0F_HEX = "9a5c1e"
     $Env:BASE24_COLOR_10_HEX = "182928"
     $Env:BASE24_COLOR_11_HEX = "0e1e1e"
     $Env:BASE24_COLOR_12_HEX = "df848a"
-    $Env:BASE24_COLOR_13_HEX = "ffb779"
+    $Env:BASE24_COLOR_13_HEX = "e7c261"
     $Env:BASE24_COLOR_14_HEX = "7bba81"
     $Env:BASE24_COLOR_15_HEX = "72d6d4"
     $Env:BASE24_COLOR_16_HEX = "60a5d2"
-    $Env:BASE24_COLOR_17_HEX = "c68ac5"
+    $Env:BASE24_COLOR_17_HEX = "a793da"
 }

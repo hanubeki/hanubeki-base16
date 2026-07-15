@@ -1,13 +1,13 @@
-# tinted-shell (base16) hanubeki-shidare10 for PowerShell
+# tinted-shell (base16) hanubeki-shidare for PowerShell
 # scheme made by hanubeki
 
-$Env:BASE16_THEME = "hanubeki-shidare10"
+$Env:BASE16_THEME = "hanubeki-shidare"
 
 Write-Host -NoNewline "`e]4;0;rgb:3c/2c/35`e\" # base00
 Write-Host -NoNewline "`e]4;1;rgb:da/84/a0`e\" # base08
 Write-Host -NoNewline "`e]4;2;rgb:a4/b3/5c`e\" # base0B
-Write-Host -NoNewline "`e]4;3;rgb:f8/bc/64`e\" # base0A
-Write-Host -NoNewline "`e]4;4;rgb:72/a1/d9`e\" # base0D
+Write-Host -NoNewline "`e]4;3;rgb:ff/b7/79`e\" # base0A
+Write-Host -NoNewline "`e]4;4;rgb:84/9c/dd`e\" # base0D
 Write-Host -NoNewline "`e]4;5;rgb:c6/8a/c5`e\" # base0E
 Write-Host -NoNewline "`e]4;6;rgb:74/d5/e4`e\" # base0C
 Write-Host -NoNewline "`e]4;7;rgb:d8/c0/cb`e\" # base05
@@ -15,8 +15,8 @@ Write-Host -NoNewline "`e]4;7;rgb:d8/c0/cb`e\" # base05
 Write-Host -NoNewline "`e]4;8;rgb:86/71/7c`e\" # base03
 Write-Host -NoNewline "`e]4;9;rgb:da/84/a0`e\" # base08
 Write-Host -NoNewline "`e]4;10;rgb:a4/b3/5c`e\" # base0B
-Write-Host -NoNewline "`e]4;11;rgb:f8/bc/64`e\" # base0A
-Write-Host -NoNewline "`e]4;12;rgb:72/a1/d9`e\" # base0D
+Write-Host -NoNewline "`e]4;11;rgb:ff/b7/79`e\" # base0A
+Write-Host -NoNewline "`e]4;12;rgb:84/9c/dd`e\" # base0D
 Write-Host -NoNewline "`e]4;13;rgb:c6/8a/c5`e\" # base0E
 Write-Host -NoNewline "`e]4;14;rgb:74/d5/e4`e\" # base0C
 Write-Host -NoNewline "`e]4;15;rgb:ff/ec/f4`e\" # base07
@@ -47,10 +47,10 @@ if ($(Test-Path "Env:TINTED_SHELL_ENABLE_BASE16_VARS") -or $(Test-Path "Env:BASE
     $Env:BASE16_COLOR_07_HEX = "ffecf4"
     $Env:BASE16_COLOR_08_HEX = "da84a0"
     $Env:BASE16_COLOR_09_HEX = "f0927f"
-    $Env:BASE16_COLOR_0A_HEX = "f8bc64"
+    $Env:BASE16_COLOR_0A_HEX = "ffb779"
     $Env:BASE16_COLOR_0B_HEX = "a4b35c"
     $Env:BASE16_COLOR_0C_HEX = "74d5e4"
-    $Env:BASE16_COLOR_0D_HEX = "72a1d9"
+    $Env:BASE16_COLOR_0D_HEX = "849cdd"
     $Env:BASE16_COLOR_0E_HEX = "c68ac5"
     $Env:BASE16_COLOR_0F_HEX = "c16c5b"
 }

@@ -1,7 +1,7 @@
-# tinted-shell (base24) hanubeki-shidare10 for PowerShell
+# tinted-shell (base24) hanubeki-shidare-alt for PowerShell
 # scheme made by hanubeki
 
-$Env:BASE24_THEME = "hanubeki-shidare10"
+$Env:BASE24_THEME = "hanubeki-shidare-alt"
 
 Write-Host -NoNewline "`e]4;0;rgb:3c/2c/35`e\" # base00
 Write-Host -NoNewline "`e]4;1;rgb:bc/6b/86`e\" # base08

@@ -1,7 +1,7 @@
-# tinted-shell (base16) hanubeki-hiyake9 for PowerShell
+# tinted-shell (base16) hanubeki-hiyake for PowerShell
 # scheme made by hanubeki
 
-$Env:BASE16_THEME = "hanubeki-hiyake9"
+$Env:BASE16_THEME = "hanubeki-hiyake"
 
 Write-Host -NoNewline "`e]4;0;rgb:f9/ef/e7`e\" # base00
 Write-Host -NoNewline "`e]4;1;rgb:9e/53/6d`e\" # base08
