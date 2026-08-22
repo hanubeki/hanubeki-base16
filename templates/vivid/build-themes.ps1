@@ -1,3 +1,3 @@
 Remove-Item -Path ".\themes" -Recurse
 
-C:\Soft\base16-builder-go\base16-builder-go_0.3.0_windows_amd64.exe -schemes-dir ..\..\schemes
+C:\Soft\tinted-builder-rust\tinted-builder-rust.exe build --schemes-dir ..\..\schemes .

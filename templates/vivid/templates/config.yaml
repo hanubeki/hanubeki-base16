@@ -1,9 +1,7 @@
 base16:
+  filename: themes/{{ scheme-system }}-{{ scheme-slug }}.yml
   supported-systems: [base16]
-  extension: .yml
-  output: themes
 
 base24:
+  filename: themes/{{ scheme-system }}-{{ scheme-slug }}.yml
   supported-systems: [base24]
-  extension: .yml
-  output: themes
