@@ -27,6 +27,7 @@ if ($Env:BASE24_SHELL_SET_BACKGROUND -ne "false") {
     Write-Host -NoNewline "`e]11;rgb:{{ui.global.background.normal.hex-r}}/{{ui.global.background.normal.hex-g}}/{{ui.global.background.normal.hex-b}}`e\"
 }
 
+# Write-Host -NoNewline "`e]12;rgb:{{ui.cursor.normal.foreground.hex-r}}/{{ui.cursor.normal.foreground.hex-g}}/{{ui.cursor.normal.foreground.hex-b}}`e\"
 Write-Host -NoNewline "`e]12;rgb:{{ui.global.foreground.normal.hex-r}}/{{ui.global.foreground.normal.hex-g}}/{{ui.global.foreground.normal.hex-b}}`e\"
 
 if ($(Test-Path "Env:TINTED_SHELL_ENABLE_TINTED8_VARS")) {
