@@ -19,7 +19,7 @@ palette:
   gray: "#697a79"
   brown: "#9a5c1e"
 
-  black-bright: "#2e3e3e"
+  black-bright: "#394a49"
   red-bright: "#df848a"
   yellow-bright: "#e7c261"
   green-bright: "#7bba81"
@@ -40,5 +40,5 @@ palette:
   magenta-dim: "#735fa2"
   white-dim: "#9dafae"
   orange-dim: "#a86829"
-  gray-dim: "#394a49"
+  gray-dim: "#506261"
   brown-dim: "#7c4404"

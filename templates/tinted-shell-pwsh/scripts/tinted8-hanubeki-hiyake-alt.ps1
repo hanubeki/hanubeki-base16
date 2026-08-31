@@ -12,7 +12,7 @@ Write-Host -NoNewline "`e]4;5;rgb:73/5f/a2`e\"
 Write-Host -NoNewline "`e]4;6;rgb:36/9e/ad`e\"
 Write-Host -NoNewline "`e]4;7;rgb:43/47/4e`e\"
 
-Write-Host -NoNewline "`e]4;8;rgb:ea/e1/d9`e\"
+Write-Host -NoNewline "`e]4;8;rgb:cb/c5/c1`e\"
 Write-Host -NoNewline "`e]4;9;rgb:85/3d/2e`e\"
 Write-Host -NoNewline "`e]4;10;rgb:58/64/16`e\"
 Write-Host -NoNewline "`e]4;11;rgb:9e/6d/1c`e\"
@@ -40,7 +40,7 @@ if ($(Test-Path "Env:TINTED_SHELL_ENABLE_TINTED8_VARS")) {
     $Env:TINTED8_COLOR_CYAN_NORMAL_HEX = "369ead"
     $Env:TINTED8_COLOR_WHITE_NORMAL_HEX = "43474e"
 
-    $Env:TINTED8_COLOR_BLACK_BRIGHT_HEX = "eae1d9"
+    $Env:TINTED8_COLOR_BLACK_BRIGHT_HEX = "cbc5c1"
     $Env:TINTED8_COLOR_RED_BRIGHT_HEX = "853d2e"
     $Env:TINTED8_COLOR_GREEN_BRIGHT_HEX = "586416"
     $Env:TINTED8_COLOR_YELLOW_BRIGHT_HEX = "9e6d1c"
