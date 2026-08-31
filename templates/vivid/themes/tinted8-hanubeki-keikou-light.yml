@@ -9,8 +9,8 @@ colors:
   cyan:   '369ead'
 
   black:      'eaf1ff'
-  gray:       'a4acb9'
-  darkgray:   '808c9f'
+  gray:       'c7ccd4'
+  darkgray:   'a4acb9'
   darkergray: 'bfc7d5'
 
   bright_red:   '823b54'
