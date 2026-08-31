@@ -23,7 +23,7 @@ Write-Host -NoNewline "`e]4;15;rgb:{{palette.white.bright.hex-r}}/{{palette.whit
 
 Write-Host -NoNewline "`e]10;rgb:{{ui.global.foreground.normal.hex-r}}/{{ui.global.foreground.normal.hex-g}}/{{ui.global.foreground.normal.hex-b}}`e\"
 
-if ($Env:BASE24_SHELL_SET_BACKGROUND -ne "false") {
+if ($Env:TINTED8_SHELL_SET_BACKGROUND -ne "false") {
     Write-Host -NoNewline "`e]11;rgb:{{ui.global.background.normal.hex-r}}/{{ui.global.background.normal.hex-g}}/{{ui.global.background.normal.hex-b}}`e\"
 }
 

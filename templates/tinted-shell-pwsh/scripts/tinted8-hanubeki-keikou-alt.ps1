@@ -23,7 +23,7 @@ Write-Host -NoNewline "`e]4;15;rgb:ea/f1/ff`e\"
 
 Write-Host -NoNewline "`e]10;rgb:bf/c7/d5`e\"
 
-if ($Env:BASE24_SHELL_SET_BACKGROUND -ne "false") {
+if ($Env:TINTED8_SHELL_SET_BACKGROUND -ne "false") {
     Write-Host -NoNewline "`e]11;rgb:29/31/3c`e\"
 }
 
