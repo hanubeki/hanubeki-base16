@@ -8,10 +8,10 @@ colors:
   pink:   '8d79be'
   cyan:   '55bbb8'
 
-  black:      '182928'
-  gray:       '9dafae'
-  darkgray:   '2e3e3e'
-  darkergray: '233333'
+  black:      '233333'
+  gray:       '697a79'
+  darkgray:   '4c5a59'
+  darkergray: '2e3e3e'
 
   bright_red:   'df848a'
   bright_white: 'e2f5f3'
