@@ -1,6 +1,6 @@
 Remove-Item -Path ".\theme" -Recurse
 
-# tinted-builder-rust doesn't support {{scheme-is-light-variant}} and {{scheme-is-dark-variant}} in filename
+# tinted-builder-rust doesn't support {{scheme-is-light-variant}}, {{scheme-is-dark-variant}} and {{option.is-dark-variant}} in filename
 # C:\Soft\tinted-builder-rust\tinted-builder-rust.exe build --schemes-dir ..\..\schemes .
 
 C:\Soft\base16-builder-go\base16-builder-go_0.3.0_windows_amd64.exe -schemes-dir ..\..\schemes
