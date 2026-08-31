@@ -1,5 +1,5 @@
 colors:
-  # based off of iceberg-dark vivid theme
+  # based off of one-dark and iceberg-dark vivid theme
   white:  'bfc7d5'
   red:    'c16c5b'
   green:  '8a9845'
