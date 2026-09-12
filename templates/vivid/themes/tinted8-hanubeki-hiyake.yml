@@ -1,6 +1,6 @@
 colors:
   # based off of one-dark and iceberg-dark vivid theme
-  white:  '43474e'
+  white:  'd8c3ab'
   red:    '9e536d'
   green:  '488450'
   yellow: 'bc8734'
@@ -8,13 +8,13 @@ colors:
   pink:   '735fa2'
   cyan:   '369ead'
 
-  black:      'f9efe7'
-  gray:       'cacaca'
-  darkgray:   'ababab'
-  darkergray: 'cbc5c1'
+  black:      '29313c'
+  gray:       '969696'
+  darkgray:   '777777'
+  darkergray: '43474e'
 
-  bright_red:   '823b54'
-  bright_white: '29313c'
+  bright_red:   'bc6b86'
+  bright_white: 'ffeedc'
 
 core:
   normal_text: {}

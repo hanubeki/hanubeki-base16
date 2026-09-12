@@ -7,38 +7,38 @@ scheme:
   theme-author: "hanubeki"
 variant: "light"
 palette:
-  black: "#f9efe7"
+  black: "#29313c" # +12
   red: "#a35444"
   yellow: "#bc8734"
   green: "#707d2e"
   cyan: "#369ead"
   blue: "#3c6da2"
   magenta: "#735fa2"
-  white: "#43474e"
+  white: "#d8c3ab" # -12
   orange: "#a86829"
-  gray: "#ababab"
+  gray: "#777777" # 0
   brown: "#7c4404"
 
-  black-bright: "#cbc5c1"
-  red-bright: "#853d2e"
-  yellow-bright: "#9e6d1c"
-  green-bright: "#586416"
-  cyan-bright: "#008392"
-  blue-bright: "#1f5588"
-  magenta-bright: "#733f75"
-  white-bright: "#29313c"
-  orange-bright: "#8b5011"
-  gray-bright: "#919092"
-  brown-bright: "#5c3000"
+  black-bright: "#43474e" # +8
+  red-bright: "#c16c5b"
+  yellow-bright: "#d9a14c"
+  green-bright: "#8a9845"
+  cyan-bright: "#56b9c8"
+  blue-bright: "#5787be"
+  magenta-bright: "#8d79be"
+  white-bright: "#ffeedc" # -12
+  orange-bright: "#c78140"
+  gray-bright: "#978f88" # -4
+  brown-bright: "#9a5C1e"
 
-  black-dim: "#fff8f4"
-  red-dim: "#c16c5b"
-  yellow-dim: "#d9a14c"
-  green-dim: "#8a9845"
-  cyan-dim: "#56b9c8"
-  blue-dim: "#5787be"
-  magenta-dim: "#8d79be"
-  white-dim: "#76777a"
-  orange-dim: "#c78140"
-  gray-dim: "#bbb8b8"
-  brown-dim: "#9a5C1e"
+  black-dim: "#1e2631" # +12
+  red-dim: "#853d2e"
+  yellow-dim: "#9e6d1c"
+  green-dim: "#586416"
+  cyan-dim: "#008392"
+  blue-dim: "#1f5588"
+  magenta-dim: "#733f75"
+  white-dim: "#b7a99a" # -8
+  orange-dim: "#8b5011"
+  gray-dim: "#5d5e61" # +4
+  brown-dim: "#5c3000"

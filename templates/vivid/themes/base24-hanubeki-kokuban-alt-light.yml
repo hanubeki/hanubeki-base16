@@ -1,20 +1,20 @@
 colors:
-  # based off of one-dark and iceberg-dark vivid theme
-  white:  'bfc7d5'
-  red:    '9e536d'
+  # based off of iceberg-dark vivid theme
+  white:  '394a49'
+  red:    'a25259'
   green:  '488450'
-  yellow: 'bc8734'
-  blue:   '3c6da2'
-  pink:   '735fa2'
-  cyan:   '369ead'
+  yellow: 'c78140'
+  blue:   '24719b'
+  pink:   '8e578e'
+  cyan:   '349f9d'
 
-  black:      '29313c'
-  gray:       '9097a2'
-  darkgray:   '707884'
-  darkergray: '3f4753'
+  black:      'e2f5f3'
+  gray:       '9dafae'
+  darkgray:   'b8cac9'
+  darkergray: 'd3e6e5'
 
-  bright_red:   'bc6b86'
-  bright_white: 'eaf1ff'
+  bright_red:   '853b42'
+  bright_white: '233333'
 
 core:
   normal_text: {}

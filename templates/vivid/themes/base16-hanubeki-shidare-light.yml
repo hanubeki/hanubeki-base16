@@ -1,20 +1,17 @@
 colors:
-  # based off of one-dark and iceberg-dark vivid theme
-  white:  'bfc7d5'
+  # based off of iceberg-dark vivid theme
+  white:  '53424b'
   red:    '9e536d'
-  green:  '488450'
-  yellow: 'bc8734'
-  blue:   '3c6da2'
-  pink:   '735fa2'
+  green:  '707d2e'
+  yellow: 'c78140'
+  blue:   '5169a6'
+  pink:   '8e578e'
   cyan:   '369ead'
 
-  black:      '29313c'
-  gray:       '9097a2'
-  darkgray:   '707884'
-  darkergray: '3f4753'
-
-  bright_red:   'bc6b86'
-  bright_white: 'eaf1ff'
+  black:      'ffecf4'
+  gray:       'bca5b0'
+  darkgray:   'd8c0cb'
+  darkergray: 'f5dce8'
 
 core:
   normal_text: {}
@@ -70,8 +67,8 @@ core:
   sticky: {}
 
   executable_file:
-    foreground: bright_red
-    # font-style: bold
+    foreground: red
+    font-style: bold
 
 text:
   special:
@@ -79,8 +76,7 @@ text:
     background: yellow
 
   todo:
-    foreground: bright_white
-    # font-style: bold
+    font-style: bold
 
   licenses:
     foreground: gray
@@ -115,8 +111,8 @@ archives:
   font-style: underline
 
 executable:
-  foreground: bright_red
-  # font-style: bold
+  foreground: red
+  font-style: bold
 
 unimportant:
   foreground: darkgray

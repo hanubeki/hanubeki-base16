@@ -1,20 +1,20 @@
 colors:
   # based off of one-dark and iceberg-dark vivid theme
-  white:  'bfc7d5'
+  white:  'd8c0cb'
   red:    '9e536d'
-  green:  '488450'
+  green:  '707d2e'
   yellow: 'bc8734'
   blue:   '3c6da2'
-  pink:   '735fa2'
+  pink:   '8e578e'
   cyan:   '369ead'
 
-  black:      '29313c'
-  gray:       '9097a2'
-  darkgray:   '707884'
-  darkergray: '3f4753'
+  black:      '3c2c35'
+  gray:       'a3919b'
+  darkgray:   '86717c'
+  darkergray: '53424b'
 
   bright_red:   'bc6b86'
-  bright_white: 'eaf1ff'
+  bright_white: 'ffecf4'
 
 core:
   normal_text: {}
