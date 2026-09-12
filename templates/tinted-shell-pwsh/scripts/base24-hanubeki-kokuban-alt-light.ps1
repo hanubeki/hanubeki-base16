@@ -22,7 +22,7 @@ Write-Host -NoNewline "`e]4;14;rgb:00/85/83`e\" # base15
 Write-Host -NoNewline "`e]4;15;rgb:23/33/33`e\" # base07
 
 Write-Host -NoNewline "`e]4;16;rgb:b2/60/4f`e\" # base09
-Write-Host -NoNewline "`e]4;17;rgb:85/3d/2e`e\" # base0F
+Write-Host -NoNewline "`e]4;17;rgb:74/47/3d`e\" # base0F
 Write-Host -NoNewline "`e]4;18;rgb:d3/e6/e5`e\" # base01
 Write-Host -NoNewline "`e]4;19;rgb:b8/ca/c9`e\" # base02
 Write-Host -NoNewline "`e]4;20;rgb:69/7a/79`e\" # base04
@@ -54,7 +54,7 @@ if ($(Test-Path "Env:TINTED_SHELL_ENABLE_BASE24_VARS")) {
     $Env:BASE24_COLOR_0C_HEX = "349f9d"
     $Env:BASE24_COLOR_0D_HEX = "24719b"
     $Env:BASE24_COLOR_0E_HEX = "8e578e"
-    $Env:BASE24_COLOR_0F_HEX = "853d2e"
+    $Env:BASE24_COLOR_0F_HEX = "74473d"
     $Env:BASE24_COLOR_10_HEX = "eafdfc"
     $Env:BASE24_COLOR_11_HEX = "f1fffe"
     $Env:BASE24_COLOR_12_HEX = "853b42"

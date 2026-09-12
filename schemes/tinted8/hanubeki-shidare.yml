@@ -17,7 +17,7 @@ palette:
   white: "#d8c0cb"
   orange: "#d17967"
   gray: "#86717c"
-  brown: "#a35444"
+  brown: "#905e54"
 
   black-bright: "#53424b"
   red-bright: "#da84a0"
@@ -29,7 +29,7 @@ palette:
   white-bright: "#ffecf4"
   orange-bright: "#f0927f"
   gray-bright: "#a18b96"
-  brown-bright: "#c16c5b"
+  brown-bright: "#ac776c"
 
   black-dim: "#30212a"
   red-dim: "#9e536d"
@@ -41,4 +41,4 @@ palette:
   white-dim: "#bca5b0"
   orange-dim: "#b2604f"
   gray-dim: "#6c5963"
-  brown-dim: "#853d2e"
+  brown-dim: "#74473d"
