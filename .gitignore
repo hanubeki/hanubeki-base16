@@ -5,5 +5,6 @@
 /templates/vivid/themes/tinted?-*.yml
 !base??-hanubeki-*
 !tinted?-hanubeki-*
+!base24-vintage-plusplus*
 /templates/tinted-vscode/
 /schemes/schemes-spec-0.11/
