@@ -6,7 +6,7 @@ hanubeki's base16/24 and tinted8 schemes with few templates
 * [keikou-alt](https://pf.korako.me/post/14032)
 
 ## Links
-* [base16-builder-go](https://github.com/tinted-theming/base16-builder-go)
+* [tinted-builder-rust](https://github.com/tinted-theming/tinted-builder-rust)
 * [Tinted VSCode](https://github.com/tinted-theming/tinted-vscode)
 
 * [ChMate](https://chmate.airfront.co.jp/)
