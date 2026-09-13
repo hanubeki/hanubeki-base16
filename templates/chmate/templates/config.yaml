@@ -1,3 +1,21 @@
-default:
-  extension: ".{{#scheme-is-light-variant}}day{{/scheme-is-light-variant}}{{#scheme-is-dark-variant}}night{{/scheme-is-dark-variant}}.txt"
-  output: theme/base16
+base16:
+  filename: theme/{{ scheme-system }}-{{ scheme-slug }}/theme.txt
+  supported-systems: [base16]
+
+renamer-base16:
+  filename: theme/{{ scheme-system }}-{{ scheme-slug }}/renamer.ps1
+  supported-systems: [base16]
+
+tinted8:
+  filename: theme/{{ scheme.system }}-{{ scheme.slug }}/theme.txt
+  supported-systems: [tinted8]
+  supports:
+    tinted8-builder: "~0.2.0"
+    tinted8-styling: "~0.2.0"
+
+renamer-tinted8:
+  filename: theme/{{ scheme.system }}-{{ scheme.slug }}/renamer.ps1
+  supported-systems: [tinted8]
+  supports:
+    tinted8-builder: "~0.2.0"
+    tinted8-styling: "~0.2.0"
