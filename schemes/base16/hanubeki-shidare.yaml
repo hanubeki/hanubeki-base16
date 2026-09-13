@@ -12,7 +12,7 @@ palette:
   base06: "#f5dce8"
   base07: "#ffecf4"
   base08: "#da84a0"
-  base09: "#f0927f"
+  base09: "#ffa08d"
   base0A: "#ffb779" # FIXME: clipping at chroma 36
   base0B: "#a4b35c"
   base0C: "#74d5e4"
