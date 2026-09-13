@@ -1,8 +1,5 @@
 # hanubeki-base16
-hanubeki's base16/24 schemes with few templates
-
-## Notice
-ChMate template doesn't work on `tinted-builder-rust` as config.yaml has some mustache expressions.
+hanubeki's base16/24 and tinted8 schemes with few templates
 
 ## Scheme details
 * [keikou](https://pf.korako.me/post/9483)
