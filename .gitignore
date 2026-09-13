@@ -1,4 +1,5 @@
 /templates/chmate/theme/base??-*/
+/templates/chmate/theme/tinted?-*/
 /templates/tinted-shell-pwsh/scripts/base??-*.ps1
 /templates/tinted-shell-pwsh/scripts/tinted?-*.ps1
 /templates/vivid/themes/base??-*.yml
