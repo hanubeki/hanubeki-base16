@@ -51,7 +51,7 @@
   resHeaderBackgroundColor: 0,
   resHeaderEmphasisTextColor2: 0xffa970a9,
   resHeaderEmphasisTextColor3: 0xffbc6b86,
-  resHeaderEmphasisTextColor4: 0xffe08573,
+  resHeaderEmphasisTextColor4: 0xffda84a0,
   resHeaderEmphasisTextColor: 0xff6a82c1,
   resHeaderTextColor: 0xff65545d,
   resMarkedBackgroundColor: 0xffbc6b86,

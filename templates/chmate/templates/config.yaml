@@ -2,9 +2,13 @@ base16:
   filename: theme/{{ scheme-system }}-{{ scheme-slug }}/theme.txt
   supported-systems: [base16]
 
+base24:
+  filename: theme/{{ scheme-system }}-{{ scheme-slug }}/theme.txt
+  supported-systems: [base24]
+
 renamer-base16:
   filename: theme/{{ scheme-system }}-{{ scheme-slug }}/renamer.ps1
-  supported-systems: [base16]
+  supported-systems: [base16,base24]
 
 tinted8:
   filename: theme/{{ scheme.system }}-{{ scheme.slug }}/theme.txt
