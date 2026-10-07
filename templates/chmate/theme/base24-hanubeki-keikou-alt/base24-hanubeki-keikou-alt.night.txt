@@ -22,6 +22,7 @@
   listCategoryTextColor: 0xffa4acb9,
   listCategoryTopBorderColor: 0,
   listDividerColor: 0xff707884,
+  listItemBackgroundColor: 0,
   listPopupBackgroundColor: 0xff29313c,
   listPopupBorderColor: 0,
   listPopupShadowColor: 0xff707884,
@@ -90,5 +91,5 @@
   unreadBorderTopColor: 0,
   unreadTextColor: 0xff29313c,
   unreadTextShadowColor: 0,
-  windowBackgroundColor: 0x0029313c
+  windowBackgroundColor: 0xff29313c
 }
